@@ -15,7 +15,7 @@ def is_prime(n):
     >>> is_prime(7)
     True
     """
-
+#ADD
     while n>1:
         k=smallest_factor(n)
         if n//k==1:
